@@ -1,5 +1,9 @@
 # Installation-Command-Compiles
 
+
+Lite-X command lines
+
+
 tar -xzf /home/him/Downloads/lite-xl-v2.1.5-addons-linux-x86_64-portable.tar.gz
 
 rm -rf $HOME/.local/share/lite-xl $HOME/.local/bin/lite-xl
