@@ -3,6 +3,8 @@
 # Prompt for the URL
 read -p "Enter the URL to download: " url
 
+cd ~/Downloads
+
 # Check if the URL is empty
 if [ -z "$url" ]
 then
@@ -11,7 +13,7 @@ then
 fi
 
 # Download the URL using aria2c with output to Downloads directory
-aria2c -o "$HOME/Downloads/" "$url"
+aria2c "$url"
 
 # Print a success message
 echo "Download complete."
